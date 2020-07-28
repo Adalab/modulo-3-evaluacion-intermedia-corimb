@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import pokemonsFromApi from './pokemons.json';
+import PokeList from './components/PokeList';
 
-function App() {
-  return <div className='App'>Hola</div>;
-}
+const App = () => {
+  const [pokemons] = useState(pokemonsFromApi);
+
+  return (
+    <div className='App'>
+      <PokeList pokemons={pokemons} />
+    </div>
+  );
+};
 
 export default App;
