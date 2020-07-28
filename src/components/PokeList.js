@@ -15,7 +15,12 @@ const PokeList = (props) => {
     );
   });
 
-  return <ul className='pokes'>{items}</ul>;
+  return (
+    <div>
+      <h2>Mi lista de pokemons</h2>
+      <ul className='pokes'>{items}</ul>
+    </div>
+  );
 };
 
 export default PokeList;

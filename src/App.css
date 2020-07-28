@@ -5,3 +5,17 @@
 ul {
   list-style-type: none;
 }
+.poke-item {
+  border: 1px solid aqua;
+  padding: 10px;
+  border-radius: 6px;
+  width: 200px;
+  margin: 10px;
+}
+
+.pokes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
