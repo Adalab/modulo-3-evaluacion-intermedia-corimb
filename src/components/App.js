@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
-import pokemonsFromApi from './pokemons.json';
-import PokeList from './components/PokeList';
+import '../App.css';
+import pokemonsFromApi from '../pokemons.json';
+import PokeList from './PokeList';
 
 const App = () => {
   const [pokemons] = useState(pokemonsFromApi);
