@@ -18,7 +18,7 @@ const PokeList = (props) => {
 
   return (
     <div>
-      <h2>Mi lista de pokemons</h2>
+      <h2 className="main-title">My PokeList</h2>
       <ul className='pokes'>{items}</ul>
     </div>
   );

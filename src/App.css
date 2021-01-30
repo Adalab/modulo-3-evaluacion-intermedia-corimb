@@ -1,5 +1,15 @@
+body {
+  background-color: #0a2734;
+}
+
 .App {
   text-align: center;
+}
+
+.main-title {
+  font-family: 'Fredoka One', cursive;
+  color: aqua;
+  font-size: xx-large;
 }
 
 ul {
@@ -7,12 +17,13 @@ ul {
   padding: 0;
 }
 .poke-item {
-  border: 1px solid aqua;
+  border: 5px solid aqua;
   padding: 10px;
   border-radius: 6px;
   width: 200px;
   height: 250px;
   margin: 10px;
+  background-color: paleturquoise;
 }
 
 .pokes {
@@ -20,4 +31,14 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px;
+}
+
+.pokemon__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.type {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
 }
